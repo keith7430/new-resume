@@ -1,0 +1,26 @@
+/*image gallery for portfolio*/
+div.gallery {
+    margin-top: 20px;
+    margin-right: 80px;
+    border: 1px solid rgba(215, 215, 215, 0.51);
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid rgba(152, 152, 152, 0.5);
+}
+
+div.gallery img {
+    width: 110%;
+    height: 110%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(64, 64, 64, 0.82);
+}

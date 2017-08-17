@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+
+    .bgimg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('img/tyga.jpg');
+        min-height: 100%;
+    }
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:30%">
+    <div class="bgimg"></div>
+</nav>
+
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+     id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+       style="padding:0 12px;">
+        <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:30%">
+
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+          onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+        <h1 class="w3-jumbo"><b>Keith Brown</b></h1>
+        <h4>Web Developer and Designer.</h4>
+        <img src="img/tyga.jpg" class="w3-image w3-hide-large w3-hide-small w3-round"
+             style="display:block;width:60%;margin:auto;">
+        <img src="img/tyga.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000"
+             height="1333">
+    </header>
+
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+        <h1>Personal Statement</h1>
+        <hr class="w3-opacity">
+        <p>
+            A young, ambitious and creative web developer with 6 months of experience in both front-end and back-end web
+            development. A logical and analytical thinker, who enjoys challenges and problem-solving.
+            Dedicated, and very curious, striving towards staying up to date with most relevant programming languages.
+
+        </p>
+        <!--end of personal statement-->
+        <h2>About</h2>
+        <hr class="w3-opacity">
+        <p>I wasn't one of those people who was given a computer at the age of five and fell in love with computers.<br>
+            I was a student, working on different projects mostly studying, sports, art and at the of age 19 the magic
+            of Coding
+            begged me to take its path.<br>
+            Since then l started Coding classes and worked under head Web developers to maximise’ search engine
+            performance
+            producing visual content for various projects, and developing code for other use.<br></br>
+            l have managed to develop and improve my self by taking design thinking classes and as well
+            taking online courses which had to do with learning how to learn and all this was so that l could
+            learn and understand how to learn at home.<br>
+            At the moment l am still new to the Coding industry but everyday l learn new things and l grow and head
+            towards becoming a professional web developer and built a career with potential for long-term
+            advancement.<br></br>
+            If you wish to know more, just ask...<br></br>
+            Keith Brown.
+        </p>
+        <h3 class="w3-padding-16">My Skills</h3>
+        <p class="w3-wide">Html</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+        </div>
+        <br>
+        <p class="w3-wide">CSS</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+        </div>
+        <br>
+        <p class="w3-wide">Jquery</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+        </div>
+        <br>
+        <p class="w3-wide">Javascript</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:65%">65%</div>
+        </div>
+        <br>
+        <p class="w3-wide">Php</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
+        </div>
+        <br>
+        <p class="w3-wide">MySql</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:55%">55%</div>
+        </div><br>
+
+
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">20+</span><br>
+                Projects Done
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">20+</span><br>
+                Projects Completed
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">65+</span><br>
+                Personal Projects Done
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">150+</span><br>
+                Creative thinking
+            </div>
+        </div>
+
+
+
+        <!-- educational history -->
+        <h3 class="w3-padding-24">Educational History</h3>
+        <p style="color: black">2017- present: Code Space Academy – 6 month Web development Course<br>
+            Relevant modules include: CSS, XHTML, JAVASCRIPT, PHP, SQL and design
+            thinking for creative problem solving</p><br>
+
+
+        <p>2016-past: Cedar High School, Cape Town – National Senior Certificate
+            A aggregate attained in Economics, History and Life Orientation. Other subjects Mathematics and Life
+            Sciences</p><br>
+
+        <!-- Grid for developed skills -->
+        <h3 class="w3-padding-16">Skills Developed</h3>
+        <div class="w3-row-padding" style="margin:0 -16px">
+
+            <div class="w3-half">
+                <ul class="w3-ul w3-center w3-card-2 w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Studying Web Development</li>
+                    <li class="w3-padding-16">Creative thinking</li>
+                    <li class="w3-padding-16">Multitasking</li>
+                    <li class="w3-padding-16">Problem solving</li>
+                    <li class="w3-padding-16">Flexibility</li>
+                    <li class="w3-padding-16">
+                        <h2>95 %</h2>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-center w3-card-2 w3-hover-shadow">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Working As a Barista</li>
+                    <li class="w3-padding-16">Time management</li>
+                    <li class="w3-padding-16">Administration and planning</li>
+                    <li class="w3-padding-16">Problem solving</li>
+                    <li class="w3-padding-16">Oral communication</li>
+                    <li class="w3-padding-16">
+                        <h2>85 %</h2>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- End Grid for developed skills -->
+        </div>
+
+
+        <!-- Reference -->
+        <h3 class="w3-padding-24">Reference</h3>
+        <img src="img/clint.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:100px">
+        <p><span class="w3-large w3-text-black w3-margin-right">Clint Clark.</span> Course Manager</p>
+        <p>Keith has a positive attitude towards learning and applies himself diligently.!</p><br>
+
+        <img src="img/stef.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:100px">
+        <p><span class="w3-large w3-text-black w3-margin-right">Stefan Louw.</span> Program Manager.</p>
+        <p> Keith has a good grasp of frontend development..</p><br>
+
+        <img src="img/nate.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:100px">
+        <p><span class="w3-large w3-text-black w3-margin-right">Nathan Banda.</span> Head Lecture.</p>
+        <p> Keith Brown loves working with HTML & CSS..</p>
+
+        <!-- End About Section -->
+
+    </div>
+
+
+
+        <!-- languages -->
+        <div class="w3-padding-32 w3-content" id="portfolio">
+            <h2 class="w3-text-grey">My languages</h2>
+            <hr class="w3-opacity">
+
+         <!--languages-->
+            <p class="w3-wide">English</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">100%</div>
+            </div>
+            <p class="w3-wide">Afrikaans</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:65%">65%</div>
+            </div>
+            <p class="w3-wide">Xhosa</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:75%">75%</div>
+            </div>
+
+            <!-- End of languages-->
+        </div><br>
+
+
+    <!-- Contact Section -->
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+        <h2>Contact Me</h2>
+        <hr class="w3-opacity">
+
+        <div class="w3-section">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Cape Town, South Africa</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +27 621 043 166</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mkpindura@gmail.com</p>
+        </div>
+
+        <!-- End Contact Section -->
+    </div>
+
+    <!--open and close side bar function-->
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+    <!-- END PAGE CONTENT -->
+</div>
+</body>
+</html>
